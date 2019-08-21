@@ -6,10 +6,10 @@ services:
     ports:
       - "9000:9000"
     environment:
-      NODE_FULL_IP: "13.57.30.186"
-      NODE_FULL_PORT: "50051"
-      NODE_SOLIDITY_IP: "18.221.34.0"
-      NODE_SOLIDITY_PORT: "50051"
+      NODE_FULL_IP: "https://api.trongrid.io"
+      NODE_FULL_PORT: "80"
+      NODE_SOLIDITY_IP: "https://api.trongrid.io"
+      NODE_SOLIDITY_PORT: "80"
       ENABLE_SYNC: "true"
       ENABLE_NETWORK_SCANNER: "true"
       SECRET_KEY: "aSLtAkzrIY9pTPyboOih"
